@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUKA - Catalogue Boutique</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: #f5f5f5; }
+        header { background: #000; color: white; padding: 20px; text-align: center; }
+        header h1 { font-size: 28px; }
+        header p { font-size: 14px; margin-top: 5px; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .card img { width: 100%; height: 300px; object-fit: cover; }
+        .card-body { padding: 15px; }
+        .card-body h3 { font-size: 18px; margin-bottom: 5px; }
+        .price { color: #e63946; font-weight: bold; font-size: 20px; margin: 10px 0; }
+        .btn { display: block; background: #25D366; color: white; text-align: center; padding: 12px; 
+               border-radius: 5px; text-decoration: none; font-weight: bold; }
+        .btn:hover { background: #128C7E; }
+        footer { text-align: center; padding: 20px; background: #000; color: white; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>STYLE LUBU</h1>
+        <p>La mode qui vous ressemble - Livraison à Lubumbashi</p>
+    </header>
+
+    <div class="container">
+        <h2 style="margin-bottom: 20px;">Nos Nouveautés</h2>
+        <div class="grid">
+            
+            <div class="card">
+                <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Robe Chic">
+                <div class="card-body">
+                    <h3>Robe Chic Longue</h3>
+                    <p>Parfaite pour soirée et événements</p>
+                    <div class="price">65$</div>
+                    <a href="https://wa.me/243995181397?text=Je veux la Robe Chic Longue" class="btn">Commander sur WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.imgur.com/JqYeZ4B.jpg" alt="Chemise Homme">
+                <div class="card-body">
+                    <h3>Chemise Homme Premium</h3>
+                    <p>Tissu coton, coupe slim</p>
+                    <div class="price">45$</div>
+                    <a href="https://wa.me/243995181397?text=Je veux la Chemise Homme Premium" class="btn">Commander sur WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.imgur.com/5Q5zYkR.jpg" alt="Ensemble Femme">
+                <div class="card-body">
+                    <h3>Ensemble 2 Pièces</h3>
+                    <p>Tendance et confortable</p>
+                    <div class="price">55$</div>
+                    <a href="https://wa.me/243995181397?text=Je veux l'Ensemble 2 Pièces" class="btn">Commander sur WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.imgur.com/3ZQvF5p.jpg" alt="Jean Street">
+                <div class="card-body">
+                    <h3>Jean Baggy Street</h3>
+                    <p>Style urbain, tailles dispo</p>
+                    <div class="price">40$</div>
+                    <a href="https://wa.me/243995181397?text=Je veux le Jean Baggy Street" class="btn">Commander sur WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.imgur.com/mv8kXcP.jpg" alt="Veste">
+                <div class="card-body">
+                    <h3>Veste Blazer</h3>
+                    <p>Pour bureau et sorties chic</p>
+                    <div class="price">70$</div>
+                    <a href="https://wa.me/243995181397?text=Je veux la Veste Blazer" class="btn">Commander sur WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.imgur.com/9yQpR2s.jpg" alt="Robe Été">
+                <div class="card-body">
+                    <h3>Robe d'Été Fleuri</h3>
+                    <p>Légère et élégante</p>
+                    <div class="price">35$</div>
+                    <a href="https://wa.me/243995181397?text=Je veux la Robe d'Été Fleuri" class="btn">Commander sur WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>TUKA © 2026 | WhatsApp: +243 995 181 397 | Lubumbashi, RDC</p>
+    </footer>
+</body>
+</html>
